@@ -49,7 +49,7 @@ class SistemaSolar
         foreach ($this->planetas as  $p) {
             $html .= $p->toFila();
         }
-        $hmtl .= "</table>";
+        $html .= "</table>";
         return $html;
     }
 
